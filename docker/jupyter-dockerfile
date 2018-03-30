@@ -1,5 +1,5 @@
 #FROM nvidia/cuda:cudnn
- FROM ubuntu
+ FROM nvidia/cuda
 MAINTAINER Tobias Gruber 
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
